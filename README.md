@@ -1,8 +1,12 @@
 
-###This repository includes text-based and visual-models for computing textual and visual similarity respectively.
+### This repository includes text-based and visual-models for computing textual and visual similarity respectively.
 
-# Image Similarity
-## Models
+## Image Similarity
+### Models
+* VGG19 Feature Extractor:
 
-# Text Similarity
-## Models
+This allows you to extract deep visual features for the NUS-WIDE-Lite dataset from a pre-trained VGG-19 net on image-net.  The feature extractor computes a 4096 dimensional feature vector for every image that contains the activations of the hidden layer immediately before the VGG's object classifier.
+
+
+## Text Similarity
+### Models
